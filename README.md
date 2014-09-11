@@ -1,36 +1,13 @@
-# geoi
+This is so very barebones and untested outside of GeoLite2 "City" database but every repo has to start somewhere right?
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar geoi-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+```clojure
+lein run 128.101.101.101 /path/to/the/GeoLite2-City.mmdb 
+{:ip 128.101.101.101, :countryCode United States, :countryName United States, :city Minneapolis, :postalCode 55414, :latitude 44.9759, :longitude -93.2166}
+```
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Adam Neilson
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
